@@ -1,11 +1,4 @@
 # VGDDMed
-Digital Media Code Along Repository 
+Digital Media Code Along Repository Day06 branch
 
-Clone this repository to your local system 
-
-```terminal
-git clone https://github.com/trioscollege/VGDDmed 
-```
-
-And switch to the branch that represents the day you're on. 
-
+Today we're starting out with just the empty HTML strcture that you will build upon as we go through the code-along.
