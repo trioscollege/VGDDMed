@@ -1,0 +1,113 @@
+/* General reset so all browsers render the same */
+* {
+    padding: 0;
+    margin: 0;
+}
+  
+.container {
+    padding-right: 15%;
+    padding-left: 15%;
+    margin: 0 auto 0 auto;
+}
+  
+/* Section Styling */
+section {
+    min-height: 700px;
+    padding-top: 5%;
+}
+  
+  
+/* Navbar Styling  */
+#navbar {
+    overflow: hidden;
+    background-color: #ddd;
+}
+  
+/* Navbar links */
+#navbar a#logo {
+    float: left;
+}
+  
+  
+#navbar a {
+float: right;
+display: block;
+color: #333;
+text-align: center;
+padding: 2em 4em 2em 4em;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+footer {
+    background: #ddd;
+    padding: 1em 2em 1em 2em;
+}
+
+.oval {
+    width: 20em;
+    height: 20em;
+    background: #ddd;
+    border-radius: 50%;
+    margin: 4em auto 4em auto;
+  
+  }
+  
+.oval img {
+    width: 60%;
+    padding: 20%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1#large {
+    font-size: 3em;
+}
+
+.seperator {
+    border-bottom: 2px solid #000;
+    max-width: 800px;
+    margin: 2em auto 2em auto;
+}
+
+.socials ul {
+    margin: 3em auto 3em auto;
+    max-width: 300px;
+}
+
+.socials li {
+    display: inline;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.socials li img {
+    max-width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section#banner {
+    background: #eee;
+}
+
+/* Page content formatting */
+.content {
+    padding: 16px 0 0 0;
+  }
+  
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ddd;
+    list-style-type: none;
+}
+  
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+}
