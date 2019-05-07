@@ -1,244 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Bootstrap 4 Example</title>
     <meta charset="utf-8">
-    <title>Portfolio - Code Along</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap base minified css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- Custom fonts for this template -->
+   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+   <!-- Custom styles for this template -->
+   <link href="css/style.css" rel="stylesheet">
   </head>
-
   <body>
-      <div class="desktop" id="navbar">
-          <ul class="sticky">
-            <li><a class="js-scroll-trigger" href="#banner" id="logo">Billy Doe</a></li>
-            <li><a class="js-scroll-trigger" href="#about">About</a></li>
-            <li><a class="js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-          </ul>
-      </div> 
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+        <!-- start of container -->
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><!--<img class="" src="img/portfolio/logo.png" alt="">-->Billy Doe</a>
 
-      <div class="mobile" id="navbar">
-          <ul class="sticky">
-            <li><a class="js-scroll-trigger" href="#banner" id="logo">Billy Doe</a></li>
-            <li><a id="nav-toggle" href="#menu"><span></span></a></li>
-            <div class="sub-menu">
-            
-            
-              <a class="js-scroll-trigger" href="#about">About</a>
-              <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-            
+            <!-- Mobile nav icons and targets -->
+            <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              Menu
+              <!-- font-awesome icon -->
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-0 mx-lg-1">
+                  <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                  <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+                </li>
+              </ul>
             </div>
+        </div>
+    </nav>
 
-          </ul>
-      </div> 
-
-    <header>
-      <section id="banner">
-          <div class="oval">
-            <img src="images/placeholder.png">
-          </div>
-
-          <div class="text-center">
-            <h1 id="large" class="text-uppercase">Billy Doe</h1>
-          </div>
-
-          <div class="seperator"></div>
-
-          <h2 class="text-center">Video Game Developer</h2>
-
-          <div class="socials">
-            <ul>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-            </ul>
-          </div>
-        </section>
-      
-    </header>   
-
-    <main class="content">
-
-        <section id="portfolio">
-          
-          <div class="text-center">
-            <h1 class="text-uppercase mt">Portfolio</h1>
-          </div>
-
-          <div class="seperator"></div>
-
-          <div class="portfolio">
-            <ul>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-            </ul>
-          </div>
-        </section>
-
-        <section id="about">
-          
-          <div class="text-center">
-            <h1 class="text-uppercase mt">About</h1>
-          </div>
-
-          <div class="seperator"></div>
-
-          <div class="container mt">
-            <h2 class="text-center">" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "</h2>
-
-            <ul class="about" id="desktop">
-              <li class="">
-                  <h2 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
-              </li>
-
-              <li class="">
-                <h2 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
-              </li>
-
-              <li class="">
-                <h4 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-              </li>
-
-              <li class="">
-                <h4 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-              </li>
-
-
-            </ul>
-
-            <ul class="about" id="mobile">
-              <li class="">
-                  <h2 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
-              </li>
-
-              <li class="">
-                <h4 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-              </li>
-
-              <li class="">
-                <h2 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
-              </li>
-
-              <li class="">
-                <h4 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-              </li>
-
-
-            </ul>
-
-          </div>
-        </section>
-
-        <section id="contact">
-          <ul id="contactContainer">
-            <li>
-              <h2 class="text-uppercase mb-1">Blog Link</h2>
-              <p><a href="" class="text-uppercase">www.somesite.com</a></p>
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container">
+        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
+        <h1 class="text-uppercase mb-0">Billy Doe</h1>
+        <!-- custom border icon -->
+        <hr class="star-light">
+        <h2 class="font-weight-light mb-0">Video Game Developer</h2>
+        <ul class="list-inline mt-5 mb-0">
+          <li class="list-inline-item">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                <!-- font-awesome github icon -->
+                <i class="fab fa-github"></i>
+              </a>
             </li>
+            <li class="list-inline-item">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                <!-- font-awesome twitter icon -->
+                <i class="fab fa-fw fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                <!-- font-awesome github icon -->
+                <i class="fab fa-fw fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                <!-- font-awesome mail icon -->
+                <i class="far fa-envelope"></i>
+              </a>
+            </li>
+        </ul>
+      </div>
+    </header>
 
-            <li>
-              
-              <div class="socials">
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+        <hr class="star-dark mb-5">
+        <!-- start of row -->
+        <div class="row">
+          <!-- portfolio item 01 -->
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
 
-                <ul>
-                  <h2 class="text-uppercase mb-1">Connect With Me</h2>
-                  <li><a href=""><img src="images/placeholder.png"></li></a>
-                  <li><a href=""><img src="images/placeholder.png"></li></a>
-                  <li><a href=""><img src="images/placeholder.png"></li></a>
-                  <li><a href=""><img src="images/placeholder.png"></li></a>
-                </ul>
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
               </div>
-            </li>
-            
+              <img class="img-fluid" src="img/portfolio/shark.png" alt="">
+            </a>
+          </div>
+        </div>
+        <!-- portfolio item 02 -->
+        <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/bird.png" alt="">
+            </a>
+          </div>
+          <!-- portfolio item 03 -->
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/pacman.png" alt="">
+            </a>
+          </div>
+          <!-- portfolio item 04 -->
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/pirate.png" alt="">
+            </a>
+          </div>
+          <!-- portfolio item 05 -->
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/rocket.png" alt="">
+            </a>
+          </div>
+          <!-- portfolio item 06 -->
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/ghost.png" alt="">
+            </a>
+          </div>
+      </div>
+    </section>
 
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white">About</h2>
+        <hr class="star-light mb-5">
+        <div class="col-lg-10 mx-auto pb-4">
+          <blockquote class="blockquote">
+            <h4 class="font-italic">" It’s the ship that made the Kessel run in less than twelve parsecs. I’ve outrun Imperial starships. Not the local bulk cruisers, mind you. I’m talking about the big Corellian ships, now. She’s fast enough for you, old man. "</h4>
+            <footer class="blockquote-footer"><cite title="Starwars">Han Solo</cite></footer>
+          </blockquote>
+        </div>
+        
+      </div>
+    </section>
 
-            <li class="mb-1">
-              <h2 class="text-uppercase mb-1">Here's my CV</h2>
-              <p><a href="" class="text-uppercase">Billy Doe CV</a></p>
-            </li>
-          </ul>
-        </section>
-
-        <footer>
-          <p class="text-center mt mb">Copyright © Your Website 2019</p>
-        </footer>
-      
-    </main>
   </body>
-
-   <script src="js/jquery.min.js"></script>
-   <script src="js/jquery.easing.min.js"></script>
-   <script type="text/javascript">
-     
-      (function($) {
-        "use strict"; // Start of use strict
-
-
-        // Smooth scrolling using jQuery easing
-        $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-          
-          if($('.sticky').hasClass("expand")) {
-            $('#nav-toggle').removeClass("active");
-            $('.sticky').removeClass("expand");
-            $('.sub-menu').removeClass("show");
-          }
-          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-              $('html, body').animate({
-                scrollTop: (target.offset().top - 70)
-              }, 1000, "easeInOutExpo");
-              return false;
-            }
-          }
-
-        });
-
-      })(jQuery); // End of use strict
-
-
-      //Mobile Hamburger icon animation call
-      document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
-        this.classList.toggle( "active" );
-        $('.sticky').toggleClass( "expand" );
-        $('.sub-menu').toggleClass("show");
-        console.log('Nav Expanding');
-      });
-
-
-
-   </script>
 </html>
