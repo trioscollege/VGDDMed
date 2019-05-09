@@ -1,91 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Bootstrap 4 Example</title>
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/finished.css">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap base minified css -->
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-
-    <!-- Custom fonts for this template -->
-   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-   <!-- Custom styles for this template -->
-   <link href="css/style.css" rel="stylesheet">
+    <title>Portfolio - Code Along</title>
   </head>
-  <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
-        <!-- start of container -->
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"><!--<img class="" src="img/portfolio/logo.png" alt="">-->Billy Doe</a>
 
-            <!-- Mobile nav icons and targets -->
-            <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              Menu
-              <!-- font-awesome icon -->
-              <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item mx-0 mx-lg-1">
-                  <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item mx-0 mx-lg-1">
-                  <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
-                </li>
-              </ul>
-            </div>
+  <body id="page-top">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="#page-top"><!--<img class="" src="img/portfolio/logo.png" alt="">-->Billy Doe</a>
+          <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
 
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
         <img class="img-fluid mb-5 d-block mx-auto" src="images/profile.png" alt="">
         <h1 class="text-uppercase mb-0">Billy Doe</h1>
-        <!-- custom border icon -->
         <hr class="star-light">
         <h2 class="font-weight-light mb-0">Video Game Developer</h2>
         <ul class="list-inline mt-5 mb-0">
           <li class="list-inline-item">
               <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                <!-- font-awesome github icon -->
                 <i class="fab fa-github"></i>
               </a>
             </li>
             <li class="list-inline-item">
               <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                <!-- font-awesome twitter icon -->
                 <i class="fab fa-fw fa-twitter"></i>
               </a>
             </li>
             <li class="list-inline-item">
               <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                <!-- font-awesome github icon -->
                 <i class="fab fa-fw fa-linkedin-in"></i>
               </a>
             </li>
             <li class="list-inline-item">
               <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                <!-- font-awesome mail icon -->
                 <i class="far fa-envelope"></i>
               </a>
             </li>
         </ul>
       </div>
-    </header>
+    </header>   
 
     <!-- Portfolio Grid Section -->
-    <section class="portfolio" id="portfolio">
+    <section class="portfolio pb-4" id="portfolio">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+        <h2 class="text-center text-uppercase text-secondary py-5">Portfolio</h2>
         <hr class="star-dark mb-5">
-        <!-- start of row -->
         <div class="row">
-          <!-- portfolio item 01 -->
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
 
@@ -97,8 +79,6 @@
               <img class="img-fluid" src="images/portfolio/shark.png" alt="">
             </a>
           </div>
-        
-          <!-- portfolio item 02 -->
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -109,7 +89,6 @@
               <img class="img-fluid" src="images/portfolio/bird.png" alt="">
             </a>
           </div>
-          <!-- portfolio item 03 -->
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -120,7 +99,6 @@
               <img class="img-fluid" src="images/portfolio/pacman.png" alt="">
             </a>
           </div>
-          <!-- portfolio item 04 -->
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -131,7 +109,6 @@
               <img class="img-fluid" src="images/portfolio/pirate.png" alt="">
             </a>
           </div>
-          <!-- portfolio item 05 -->
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -142,7 +119,6 @@
               <img class="img-fluid" src="images/portfolio/rocket.png" alt="">
             </a>
           </div>
-          <!-- portfolio item 06 -->
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -153,11 +129,12 @@
               <img class="img-fluid" src="images/portfolio/ghost.png" alt="">
             </a>
           </div>
+        </div>
       </div>
     </section>
 
     <!-- About Section -->
-    <section class="bg-primary text-white mb-0" id="about">
+    <section class="bg-primary text-white py-5" id="about">
       <div class="container">
         <h2 class="text-center text-uppercase text-white">About</h2>
         <hr class="star-light mb-5">
@@ -167,15 +144,11 @@
             <footer class="blockquote-footer"><cite title="Starwars">Han Solo</cite></footer>
           </blockquote>
         </div>
-
         <div class="row">
-          <!-- ml-auto sets margin-left to auto -->
           <div class="col-lg-3 ml-auto mb-3">
               <h4>Currently enrolled in Video Game Development at triOS College</h4>
           </div>
-          <!-- mr-auto sets margin-right to auto -->
           <div class="col-lg-6 mr-auto mb-2">
-              <!-- lead class makes paragraph stand out -->
               <p class="lead">This is a great place to talk about what I'm learning and excited about. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -184,7 +157,6 @@
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
-
         <div class="row">
           <div class="col-lg-3 ml-auto mb-3">
               <h4>The skills and computer languages I'm proficient with</h4>
@@ -198,7 +170,6 @@
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
-
         <div class="row">
           <div class="col-lg-3 ml-auto mb-3">
               <h4>I'm passionate about the video games I play</h4>
@@ -212,7 +183,6 @@
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
-
         <div class="row">
           <div class="col-lg-3 ml-auto mb-3">
               <h4>Other significant/important things about me</h4>
@@ -226,20 +196,19 @@
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
-        
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer text-center">
+        <!-- Footer -->
+    <footer class="footer bg-secondary py-5 text-center">
       <div class="container">
         <div class="row">
           <div class="col-md-3 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Blog Link</h4>
+            <h4 class="text-uppercase text-white mb-4">Blog Link</h4>
             <p class="lead mb-0"><a href="#">www.somesite.com</a></p>
           </div>
           <div class="col-md-6 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Connect With Me</h4>
+            <h4 class="text-uppercase text-white mb-4">Connect With Me</h4>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
                 <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
@@ -264,171 +233,50 @@
             </ul>
           </div>
           <div class="col-md-3">
-            <h4 class="text-uppercase mb-4">Here's my CV</h4>
+            <h4 class="text-uppercase text-white mb-4">Here's my CV</h4>
             <p class="lead mb-0"><a href="#">Billy Doe CV</a></p>
           </div>
         </div>
       </div>
     </footer>
 
-    <div class="copyright py-4 text-center text-white">
+
+    <div class="copyright bg-primary py-5 text-center text-white">
       <div class="container">
         <small>Copyright &copy; Your Website 2019</small>
       </div>
     </div>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-to-top d-lg-none position-fixed ">
-      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="images/portfolio/shark.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="images/portfolio/bird.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="images/portfolio/pacman.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="images/portfolio/pirate.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="images/portfolio/rocket.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="images/portfolio/ghost.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+      
   </body>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/jquery.easing.min.js"></script>
+   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+   <script type="text/javascript">
+     
+      (function($) {
+        "use strict"; // Start of use strict
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/freelancer.js"></script>
-  
+        // Smooth scrolling using jQuery easing
+        $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+          
+          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: (target.offset().top - 70)
+              }, 1000, "easeInOutExpo");
+              return false;
+            }
+          }
+
+        });
+
+      })(jQuery); // End of use strict
+
+
+   </script>
 </html>
