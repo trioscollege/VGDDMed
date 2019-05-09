@@ -4,7 +4,7 @@ Digital Media Code-Along Repository for VGx Students.
 Clone this repository to your local system 
 
 ```terminal
-git clone https://github.com/trioscollege/VGDDMed 
+git clone https://github.com/trioscollege/VGDDMed der???
 ```
 
 And then switch to the branch that represents the day you're on. In this course, the code-along starts on Day06.
