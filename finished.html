@@ -2,12 +2,12 @@
 <html lang="en">
     <head>    
         <meta charset="utf-8">
-        <title>Portfolio - Code Along</title>
+        <title>Day 8 - Finished</title>
 
         <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Added yesterday -->
     </head>
     <body>
-        <nav class="desktop" id="navbar"> <!-- added class and id to element -->
+        <nav id="desktop" class="navbar"> <!-- added class and id to element -->
             <ul class="sticky">  
                 <li><a href="#banner" id="logo">Billy Doe</a></li>
                 <li><a href="#about">About</a></li>
@@ -15,7 +15,7 @@
             </ul>
         </nav> 
         <!-- added secondary nav for mobile / small screens added -->
-        <nav class="mobile" id="navbar"> <!-- -->
+        <nav id="mobile" class="navbar"> <!-- note the reuse of the class -->
             <ul class="sticky">
                 <li><a href="#banner" id="logo">Billy Doe</a></li>
                 <li><a id="nav-toggle"><span></span></a></li>
@@ -23,112 +23,120 @@
                     <a href="#about">About</a>
                     <a href="#portfolio">Portfolio</a>
                 </div>
-
-        </ul>
-    </nav> 
-
-    <header>
-      <section id="banner">
-          
-          
-          <div class="profile">
-            <img src="images/profile.png">
-          </div>
-          
-
-          
-          <h1 class="text-center text-uppercase text-large" >Billy Doe</h1>
-          
-
-          <div class="seperator"></div>
-
-          <h2 class="text-center">Video Game Developer</h2>
-
-          <div class="socials">
-            <ul>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
             </ul>
-          </div>
-        </section>
-      
-    </header>   
+        </nav> 
 
-    <main class="content">
+        <header>
+            <section id="banner">
 
-        <section id="portfolio">
+                <div class="oval">
+                    <img src="images/placeholder.png">
+                </div>
+            
+                <div class="text-center">
+                    <h1 class="large">Billy Doe</h1>
+                </div>
           
-          <div class="text-center">
-            <h1 class="text-uppercase mt">Portfolio</h1>
-          </div>
+                <div class="seperator"></div>
 
-          <div class="seperator"></div>
+                <h2 class="text-center">Video Game Developer</h2>
 
-          <div class="portfolio">
-            <ul>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-            </ul>
-          </div>
-        </section>
+                <div class="socials">
+                    <ul>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                    </ul>
+                </div>
 
-        <section id="about">
+            </section>
+        </header>   
+
+        <main class="content"> <!-- added class -->
+
+            <section id="portfolio">
           
-          <div class="text-center">
-            <h1 class="text-uppercase mt">About</h1>
-          </div>
+                <div class="text-center">
+                    <h1 class="text-uppercase mt">Portfolio</h1>
+                </div>
 
-          <div class="seperator"></div>
+                <div class="seperator"></div>
 
-          <div class="container mt">
-            <h2 class="text-center">" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "</h2>
+                <div class="portfolio">
+                    <ul>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                    </ul>
+                </div>
+            
+            </section>
 
-            <ul class="about" id="desktop">
-              <li class="">
-                  <h2 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
-              </li>
+            <section id="about">
+          
+                <div class="text-center">
+                    <h1 class="text-uppercase mt">About</h1>
+                </div>
 
-              <li class="">
-                <h2 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
-              </li>
+                <div class="seperator"></div>
 
-              <li class="">
-                <h4 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-              </li>
+                <div class="container mt">
+                    <h2 class="text-center">
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                        mollit anim id est laborum. "
+                    </h2>
 
-              <li class="">
-                <h4 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-              </li>
+                    <ul class="about" id="desktop">
+                        <li>
+                            <h2 class="mb">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                                enim ad minim veniam
+                            </h2>
+                        </li>
+                        <li>
+                            <h2 class="mb">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                                enim ad minim veniam
+                            </h2>
+                        </li>
+                        <li>
+                            <h4 class="mb">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </h4>
+                        </li>
+                        <li>
+                            <h4 class="mb">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </h4>  
+                        </li>
+                    </ul>
 
-
-            </ul>
-
-            <ul class="about" id="mobile">
-              <li class="">
-                  <h2 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <ul class="about" id="mobile">
+                        <li class="">
+                            <h2 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
               </li>
 

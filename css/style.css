@@ -18,18 +18,18 @@ section {
   
   
 /* Navbar Styling  */
-#navbar {
+.navbar {
     overflow: hidden;
     background-color: #ddd;
 }
   
 /* Navbar links */
-#navbar a#logo {
+.navbar a#logo {
     float: left;
 }
   
   
-#navbar a {
+.navbar a {
 float: right;
 display: block;
 color: #333;
