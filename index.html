@@ -1,244 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" type="text/css" href="css/finished.css">
-    <meta charset="utf-8">
-    <title>Portfolio - Code Along</title>
-  </head>
+    <head>    
+        <meta charset="utf-8">
+        <title>Day 9 - Start</title>
 
-  <body>
-      <div class="desktop" id="navbar">
-          <ul class="sticky">
-            <li><a class="js-scroll-trigger" href="#banner" id="logo">Billy Doe</a></li>
-            <li><a class="js-scroll-trigger" href="#about">About</a></li>
-            <li><a class="js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-          </ul>
-      </div> 
-
-      <div class="mobile" id="navbar">
-          <ul class="sticky">
-            <li><a class="js-scroll-trigger" href="#banner" id="logo">Billy Doe</a></li>
-            <li><a id="nav-toggle" href="#menu"><span></span></a></li>
-            <div class="sub-menu">
-            
-            
-              <a class="js-scroll-trigger" href="#about">About</a>
-              <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-            
-            </div>
-
-          </ul>
-      </div> 
-
-    <header>
-      <section id="banner">
-          <div class="oval">
-            <img src="images/placeholder.png">
-          </div>
-
-          <div class="text-center">
-            <h1 id="large" class="text-uppercase">Billy Doe</h1>
-          </div>
-
-          <div class="seperator"></div>
-
-          <h2 class="text-center">Video Game Developer</h2>
-
-          <div class="socials">
-            <ul>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
+        <link rel="stylesheet" type="text/css" href="css/start.css"> <!-- Added yesterday -->
+    </head>
+    <body>
+        <nav class="desktop navbar"> <!-- added class and id to element -->
+            <ul class="sticky">  
+                <li><a href="#banner" id="logo">Billy Doe</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
             </ul>
-          </div>
-        </section>
-      
-    </header>   
+        </nav> 
+        <!-- added secondary nav for mobile / small screens added -->
+        <nav class="mobile navbar"> <!-- note the reuse of the class -->
+            <ul class="sticky">
+                <li><a href="#banner" id="logo">Billy Doe</a></li>
+                <li><a id="nav-toggle"><span></span></a></li>
+                <div class="sub-menu">
+                    <a href="#about">About</a>
+                    <a href="#portfolio">Portfolio</a>
+                </div>
+            </ul>
+        </nav> 
 
-    <main class="content">
+        <header>
+            <section id="banner">
 
-        <section id="portfolio">
+                <div class="oval">
+                    <img src="images/placeholder.png">
+                </div>
+            
+                <div class="text-center">
+                    <h1 class="large">Billy Doe</h1>
+                </div>
           
-          <div class="text-center">
-            <h1 class="text-uppercase mt">Portfolio</h1>
-          </div>
+                <div class="seperator"></div>
 
-          <div class="seperator"></div>
+                <h2 class="text-center">Video Game Developer</h2>
 
-          <div class="portfolio">
-            <ul>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-              <li><a href=""><img src="images/placeholder.png"></li></a>
-            </ul>
-          </div>
-        </section>
+                <div class="socials">
+                    <ul>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                    </ul>
+                </div>
 
-        <section id="about">
+            </section>
+        </header>   
+
+        <main class="content"> <!-- added class -->
+
+            <section id="portfolio">
           
-          <div class="text-center">
-            <h1 class="text-uppercase mt">About</h1>
-          </div>
+                <div class="text-center">
+                    <h1 class="text-uppercase mt">Portfolio</h1>
+                </div>
 
-          <div class="seperator"></div>
+                <div class="seperator"></div>
 
-          <div class="container mt">
-            <h2 class="text-center">" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "</h2>
+                <div class="portfolio">
+                    <ul>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                        <li><a href=""><img src="images/placeholder.png"></li></a>
+                    </ul>
+                </div>
+            
+            </section>
 
-            <ul class="about" id="desktop">
-              <li class="">
-                  <h2 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
-              </li>
+            <section id="about">
+          
+                <div class="text-center">
+                    <h1 class="text-uppercase mt">About</h1>
+                </div>
 
-              <li class="">
-                <h2 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
-              </li>
+                <div class="seperator"></div>
 
-              <li class="">
-                <h4 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-              </li>
+                <div class="container mt">
+                    <h2 class="text-center">
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                        mollit anim id est laborum. "
+                    </h2>
 
-              <li class="">
-                <h4 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-              </li>
+                    <ul class="about" id="desktop">
+                        <li>
+                            <h2 class="mb">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                                enim ad minim veniam
+                            </h2>
+                        </li>
+                        <li>
+                            <h2 class="mb">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                                enim ad minim veniam
+                            </h2>
+                        </li>
+                        <li>
+                            <h4 class="mb">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </h4>
+                        </li>
+                        <li>
+                            <h4 class="mb">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </h4>  
+                        </li>
+                    </ul>
+                
+                </div>
+            </section>
 
+            <section id="contact">
+                <ul id="contactContainer">
+                    <li>
+                        <h2 class="text-uppercase mb-1">Blog Link</h2>
+                        <p><a href="" class="text-uppercase">www.somesite.com</a></p>
+                    </li>
 
-            </ul>
-
-            <ul class="about" id="mobile">
-              <li class="">
-                  <h2 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
-              </li>
-
-              <li class="">
-                <h4 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-              </li>
-
-              <li class="">
-                <h2 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h2>
-              </li>
-
-              <li class="">
-                <h4 class="mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-              </li>
-
-
-            </ul>
-
-          </div>
-        </section>
-
-        <section id="contact">
-          <ul id="contactContainer">
-            <li>
-              <h2 class="text-uppercase mb-1">Blog Link</h2>
-              <p><a href="" class="text-uppercase">www.somesite.com</a></p>
-            </li>
-
-            <li>
-              
-              <div class="socials">
-
-                <ul>
-                  <h2 class="text-uppercase mb-1">Connect With Me</h2>
-                  <li><a href=""><img src="images/placeholder.png"></li></a>
-                  <li><a href=""><img src="images/placeholder.png"></li></a>
-                  <li><a href=""><img src="images/placeholder.png"></li></a>
-                  <li><a href=""><img src="images/placeholder.png"></li></a>
+                    <li>
+                        <div class="socials">
+                            <ul>
+                                <h2 class="text-uppercase mb-1">Connect With Me</h2>
+                                <li><a href=""><img src="images/placeholder.png"></li></a>
+                                <li><a href=""><img src="images/placeholder.png"></li></a>
+                                <li><a href=""><img src="images/placeholder.png"></li></a>
+                                <li><a href=""><img src="images/placeholder.png"></li></a>
+                            </ul>
+                        </div>
+                    </li>
+            
+                    <li class="mb-1">
+                        <h2 class="text-uppercase mb-1">Here's my CV</h2>
+                        <p><a href="" class="text-uppercase">Billy Doe CV</a></p>
+                    </li>
                 </ul>
-              </div>
-            </li>
-            
+            </section>
 
-
-            <li class="mb-1">
-              <h2 class="text-uppercase mb-1">Here's my CV</h2>
-              <p><a href="" class="text-uppercase">Billy Doe CV</a></p>
-            </li>
-          </ul>
-        </section>
-
-        <footer>
-          <p class="text-center mt mb">Copyright © Your Website 2019</p>
-        </footer>
+            <footer>
+                <p class="text-center mt mb">Copyright © Your Website 2019</p>
+            </footer>
       
-    </main>
-  </body>
+        </main>
+    </body>
 
-   <script src="js/jquery.min.js"></script>
-   <script src="js/jquery.easing.min.js"></script>
-   <script type="text/javascript">
-     
-      (function($) {
-        "use strict"; // Start of use strict
-
-
-        // Smooth scrolling using jQuery easing
-        $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-          
-          if($('.sticky').hasClass("expand")) {
-            $('#nav-toggle').removeClass("active");
-            $('.sticky').removeClass("expand");
-            $('.sub-menu').removeClass("show");
-          }
-          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-              $('html, body').animate({
-                scrollTop: (target.offset().top - 70)
-              }, 1000, "easeInOutExpo");
-              return false;
-            }
-          }
-
-        });
-
-      })(jQuery); // End of use strict
-
-
-      //Mobile Hamburger icon animation call
-      document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
-        this.classList.toggle( "active" );
-        $('.sticky').toggleClass( "expand" );
-        $('.sub-menu').toggleClass("show");
-        console.log('Nav Expanding');
-      });
-
-
-
-   </script>
 </html>
